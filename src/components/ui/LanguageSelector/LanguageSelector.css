@@ -1,0 +1,31 @@
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.language-selector__option {
+  background: none;
+  border: none;
+  padding: 0.15rem 0;
+  cursor: pointer;
+  color: var(--color-secondary);
+  opacity: 0.45;
+  transition: opacity 0.3s ease;
+  font: inherit;
+  line-height: 1;
+}
+
+.language-selector__option:hover,
+.language-selector__option--active {
+  opacity: 1;
+}
+
+.language-selector__divider {
+  color: var(--color-secondary);
+  opacity: 0.35;
+  user-select: none;
+}

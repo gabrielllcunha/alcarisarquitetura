@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "ALCARIS Arquitetura",
+    "description": "ALCARIS Arquitetura — A studio dedicated to commercial and residential projects that unite aesthetics, functionality, and identity. Led by Alan Carlos in Toledo, Paraná, Brazil."
+  },
+  "brand": {
+    "alt": "ALCARIS Arquitetura"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Get in Touch",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Select language"
+  },
+  "hero": {
+    "eyebrow": "Architecture Studio",
+    "tagline": "Transforming visions into spaces that tell stories",
+    "ctaPrimary": "Start a Project",
+    "ctaSecondary": "View Portfolio",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About us",
+    "title": "Architecture with purpose and history",
+    "paragraphs": [
+      "ALCARIS Arquitetura is a studio dedicated to creating commercial and residential projects that unite aesthetics, functionality, and identity.",
+      "Led by Alan Carlos, an architect graduated from Universidade Paranaense, the firm carries the trajectory of a professional recognized for innovation since the beginning of his career. At 21, Alan won a public competition for the Entrance Portal project of the city of Toledo-PR and also became the face of advertising campaigns for the Architecture course, appearing on billboards and television commercials throughout Paraná.",
+      "At 22, he already had projects in various regions of the state and, in 2024, at 23, became the youngest architect to be awarded by the Metropolitan Nucleus (Cascavel branch). Today, this experience translates into ALCARIS: a studio committed to transforming visions into spaces that tell stories."
+    ],
+    "highlights": {
+      "experience": "Years of experience",
+      "projects": "Projects delivered",
+      "dedication": "Client dedication"
+    },
+    "showcase": {
+      "next": "View next project"
+    }
+  },
+  "services": {
+    "label": "Services",
+    "title": "What we do",
+    "intro": "Complete architecture and design solutions, from the first sketch to final delivery.",
+    "items": {
+      "residential": {
+        "title": "Residential Architecture",
+        "description": "Homes that balance functionality, comfort, and a unique visual identity for every family."
+      },
+      "commercial": {
+        "title": "Commercial Architecture",
+        "description": "Corporate and commercial spaces designed to strengthen brand, flow, and user experience."
+      },
+      "interiors": {
+        "title": "Interior Design",
+        "description": "Complete environments with curated materials, furniture, and lighting in perfect harmony."
+      },
+      "consulting": {
+        "title": "Consulting & Supervision",
+        "description": "Technical guidance and supervision at every stage, from concept to final delivery."
+      }
+    }
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Selected projects",
+    "intro": "A selection of works that represent our approach — each one tells a unique story of form, material, and light.",
+    "viewOnInstagram": "View {{project}} on Instagram",
+    "categories": {
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "interiors": "Interiors"
+    },
+    "projects": {
+      "project1": "Black Fit Studio + Sunset Institute of Martial Arts",
+      "project2": "One Academy - Unit 02",
+      "project3": "Donasolo Accounting",
+      "project4": "DD Apartment",
+      "project5": "Hex Force Training Center",
+      "project6": "Carrari Ramos Advocacy"
+    }
+  },
+  "quote": {
+    "ariaLabel": "Quote",
+    "text": "Architecture is the balance between dream and reality, between form and function.",
+    "cite": "ALCARIS Arquitetura"
+  },
+  "process": {
+    "label": "Process",
+    "title": "How we work",
+    "steps": {
+      "briefing": {
+        "title": "Listening & Briefing",
+        "description": "We understand your needs, lifestyle, and vision to translate them into clear project guidelines."
+      },
+      "concept": {
+        "title": "Concept & Study",
+        "description": "We develop creative proposals with floor plans, volumetry, and visual references for validation."
+      },
+      "executive": {
+        "title": "Executive Project",
+        "description": "Complete technical detailing — structural, installations, finishes, and material specifications."
+      },
+      "delivery": {
+        "title": "Construction & Delivery",
+        "description": "Rigorous supervision of execution through final delivery, ensuring fidelity to the project."
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's build something extraordinary together",
+    "text": "Reach out via WhatsApp and tell us about your project. We are ready to transform your vision into architecture.",
+    "cta": "Chat on WhatsApp",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Toledo, Paraná — Brazil"
+  },
+  "footer": {
+    "founder": "by {{founder}}",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "copyright": "© {{year}} {{name}} {{suffix}}",
+    "rights": "All rights reserved"
+  },
+  "whatsapp": {
+    "message": "Hello! I'd like to talk about a project with ALCARIS Arquitetura.",
+    "ariaLabel": "Chat on WhatsApp"
+  }
+}

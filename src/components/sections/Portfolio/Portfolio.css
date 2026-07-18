@@ -1,0 +1,120 @@
+.portfolio {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.portfolio__header {
+  max-width: 600px;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.portfolio__intro {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  opacity: 0.75;
+  margin-top: 1rem;
+}
+
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.portfolio-card {
+  overflow: hidden;
+}
+
+.portfolio-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-card__image {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: #ddd5bc;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.portfolio-card__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.portfolio-card__link:hover .portfolio-card__image,
+.portfolio-card__link:hover .portfolio-card__photo {
+  transform: scale(1.02);
+}
+
+.portfolio-card__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  background: linear-gradient(
+    to top,
+    rgba(26, 29, 15, 0.85) 0%,
+    rgba(26, 29, 15, 0.2) 50%,
+    transparent 100%
+  );
+  color: var(--color-secondary);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.portfolio-card__link:hover .portfolio-card__overlay,
+.portfolio-card__link:focus-visible .portfolio-card__overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.portfolio-card__link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.portfolio-card__category {
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-card__title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.portfolio-card__year {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  .portfolio__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .portfolio__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-card__overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

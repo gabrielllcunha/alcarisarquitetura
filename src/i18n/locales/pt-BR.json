@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "ALCARIS Arquitetura",
+    "description": "ALCARIS Arquitetura — Escritório dedicado a projetos comerciais e residenciais que unem estética, funcionalidade e identidade. Liderado por Alan Carlos em Toledo, Paraná."
+  },
+  "brand": {
+    "alt": "ALCARIS Arquitetura"
+  },
+  "nav": {
+    "about": "Sobre",
+    "services": "Serviços",
+    "portfolio": "Portfólio",
+    "process": "Processo",
+    "contact": "Contato",
+    "cta": "Fale Conosco",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Selecionar idioma"
+  },
+  "hero": {
+    "eyebrow": "Estúdio de Arquitetura",
+    "tagline": "Transformar visões em espaços que contam histórias",
+    "ctaPrimary": "Iniciar um Projeto",
+    "ctaSecondary": "Ver Portfólio",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "Sobre nós",
+    "title": "Arquitetura com propósito e história",
+    "paragraphs": [
+      "A ALCARIS Arquitetura é um escritório dedicado à criação de projetos comerciais e residenciais que unem estética, funcionalidade e identidade.",
+      "Liderada por Alan Carlos, arquiteto formado pela Universidade Paranaense, a empresa carrega a trajetória de um profissional reconhecido pela inovação desde o início da carreira. Aos 21 anos, Alan venceu um concurso público para o projeto do Portal de Entrada da cidade de Toledo-PR e também foi o rosto de campanhas publicitárias do curso de Arquitetura, estampando outdoors e comerciais de televisão em todo o Paraná.",
+      "Aos 22 anos, já possuía projetos em diversas regiões do estado e, em 2024, aos 23 anos, tornou-se o arquiteto mais jovem a ser premiado pelo Núcleo Metropolitano (filial Cascavel). Hoje, essa bagagem se traduz na ALCARIS: um escritório comprometido em transformar visões em espaços que contam histórias."
+    ],
+    "highlights": {
+      "experience": "Anos de experiência",
+      "projects": "Projetos entregues",
+      "dedication": "Dedicação ao cliente"
+    },
+    "showcase": {
+      "next": "Ver próximo projeto"
+    }
+  },
+  "services": {
+    "label": "Serviços",
+    "title": "O que fazemos",
+    "intro": "Soluções completas em arquitetura e design, do primeiro traço à entrega final da obra.",
+    "items": {
+      "residential": {
+        "title": "Arquitetura Residencial",
+        "description": "Moradias que equilibram funcionalidade, conforto e uma identidade visual única para cada família."
+      },
+      "commercial": {
+        "title": "Arquitetura Comercial",
+        "description": "Espaços corporativos e comerciais projetados para reforçar marca, fluxo e experiência do usuário."
+      },
+      "interiors": {
+        "title": "Design de Interiores",
+        "description": "Ambientes completos com curadoria de materiais, mobiliário e iluminação em perfeita harmonia."
+      },
+      "consulting": {
+        "title": "Consultoria & Acompanhamento",
+        "description": "Orientação técnica e supervisão em todas as etapas, do conceito à entrega final da obra."
+      }
+    }
+  },
+  "portfolio": {
+    "label": "Portfólio",
+    "title": "Projetos selecionados",
+    "intro": "Uma seleção de trabalhos que representam nossa abordagem — cada um conta uma história única de forma, material e luz.",
+    "viewOnInstagram": "Ver {{project}} no Instagram",
+    "categories": {
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "interiors": "Interiores"
+    },
+    "projects": {
+      "project1": "Black Fit Estúdio + Instituto Pôr do Sol de Artes Marciais",
+      "project2": "One Academia - Unidade 02",
+      "project3": "Donasolo Contabilidade",
+      "project4": "Apartamento DD",
+      "project5": "Centro de Treinamento Hex Force",
+      "project6": "Carrari Ramos Advocacia"
+    }
+  },
+  "quote": {
+    "ariaLabel": "Citação",
+    "text": "A arquitetura é o equilíbrio entre o sonho e a realidade, entre a forma e a função.",
+    "cite": "ALCARIS Arquitetura"
+  },
+  "process": {
+    "label": "Processo",
+    "title": "Como trabalhamos",
+    "steps": {
+      "briefing": {
+        "title": "Escuta & Briefing",
+        "description": "Compreendemos suas necessidades, estilo de vida e visão para traduzir em diretrizes claras de projeto."
+      },
+      "concept": {
+        "title": "Conceito & Estudo",
+        "description": "Desenvolvemos propostas criativas com plantas, volumetria e referências visuais para validação."
+      },
+      "executive": {
+        "title": "Projeto Executivo",
+        "description": "Detalhamento técnico completo — estrutural, instalações, acabamentos e especificações de materiais."
+      },
+      "delivery": {
+        "title": "Obra & Entrega",
+        "description": "Acompanhamento rigoroso da execução até a entrega final, garantindo fidelidade ao projeto."
+      }
+    }
+  },
+  "contact": {
+    "label": "Contato",
+    "title": "Vamos construir algo extraordinário juntos",
+    "text": "Entre em contato pelo WhatsApp e conte-nos sobre o seu projeto. Estamos prontos para transformar sua visão em arquitetura.",
+    "cta": "Conversar no WhatsApp",
+    "phone": "Telefone",
+    "location": "Localização",
+    "locationValue": "Toledo, Paraná — Brasil"
+  },
+  "footer": {
+    "founder": "por {{founder}}",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "copyright": "© {{year}} {{name}} {{suffix}}",
+    "rights": "Todos os direitos reservados"
+  },
+  "whatsapp": {
+    "message": "Olá! Gostaria de conversar sobre um projeto com a ALCARIS Arquitetura.",
+    "ariaLabel": "Conversar no WhatsApp"
+  }
+}

@@ -1,0 +1,30 @@
+.logo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo--horizontalTagline.logo--nav {
+  height: 2.5rem;
+}
+
+.logo--horizontalTagline.logo--hero {
+  width: min(520px, 88vw);
+  margin-bottom: 1.5rem;
+}
+
+.logo--horizontalTagline.logo--footer {
+  width: 180px;
+}
+
+@media (max-width: 600px) {
+  .logo--horizontalTagline.logo--nav {
+    height: 2rem;
+  }
+
+  .logo--horizontalTagline.logo--footer {
+    width: 150px;
+    margin: 0 auto;
+  }
+}

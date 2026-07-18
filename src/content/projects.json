@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "slug": "project1",
+      "category": "commercial",
+      "year": "2026",
+      "image": "/assets/projects/project1.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DWrN_QwAHen/"
+    },
+    {
+      "id": "project2",
+      "slug": "project2",
+      "category": "commercial",
+      "year": "2026",
+      "image": "/assets/projects/project2.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DT8YmEvj85r/"
+    },
+    {
+      "id": "project3",
+      "slug": "project3",
+      "category": "commercial",
+      "year": "2025",
+      "image": "/assets/projects/project3.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DSIO3NXgJcJ/?img_index=1"
+    },
+    {
+      "id": "project4",
+      "slug": "project4",
+      "category": "interiors",
+      "year": "2025",
+      "image": "/assets/projects/project4.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DOlsQiwAA5K/"
+    },
+    {
+      "id": "project5",
+      "slug": "project5",
+      "category": "commercial",
+      "year": "2025",
+      "image": "/assets/projects/project5.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DNEf5rtPFXg/?img_index=1"
+    },
+    {
+      "id": "project6",
+      "slug": "project6",
+      "category": "commercial",
+      "year": "2025",
+      "image": "/assets/projects/project6.jpg",
+      "instagramUrl": "https://www.instagram.com/p/DImjVzGPMrr/?img_index=1"
+    }
+  ]
+}
