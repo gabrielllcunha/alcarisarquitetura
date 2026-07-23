@@ -10,7 +10,7 @@ function About() {
   const paragraphs = t('about.paragraphs', { returnObjects: true });
 
   return (
-    <section id="sobre" className="about section">
+    <section id="about" className="about section">
       <div className="container about__grid">
         <ScrollReveal className="about__visual">
           <ProjectShowcase />
@@ -19,7 +19,6 @@ function About() {
 
         <ScrollReveal className="about__content reveal--delay-2">
           <span className="section-label">{t('about.label')}</span>
-          <h2 className="section-title">{t('about.title')}</h2>
 
           {Array.isArray(paragraphs) &&
             paragraphs.map((paragraph, index) => (

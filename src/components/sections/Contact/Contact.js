@@ -8,7 +8,7 @@ function Contact({ onWhatsAppClick }) {
   const { t } = useTranslation();
 
   return (
-    <section id="contato" className="contact section">
+    <section id="contact" className="contact section">
       <ScrollReveal className="container contact__inner">
         <span className="section-label">{t('contact.label')}</span>
         <h2 className="section-title">{t('contact.title')}</h2>

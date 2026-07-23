@@ -8,7 +8,7 @@ function Services() {
   const { t } = useTranslation();
 
   return (
-    <section id="servicos" className="services section">
+    <section id="services" className="services section">
       <div className="container">
         <ScrollReveal className="services__header">
           <span className="section-label section-label--light">{t('services.label')}</span>

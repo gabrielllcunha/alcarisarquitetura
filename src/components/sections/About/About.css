@@ -33,6 +33,7 @@
   line-height: 1.85;
   opacity: 0.85;
   margin-bottom: 1.25rem;
+  text-align: justify;
 }
 
 .about__text strong {

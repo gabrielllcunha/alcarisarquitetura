@@ -86,7 +86,7 @@ function Navbar({ onWhatsAppClick }) {
       }}
     >
       <div className="navbar__inner container">
-        <a href="#inicio" className="navbar__brand" onClick={closeMenu}>
+        <a href="#home" className="navbar__brand" onClick={closeMenu}>
           <Logo className="logo--nav" />
         </a>
 

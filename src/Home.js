@@ -5,7 +5,6 @@ import {
   About,
   Services,
   Portfolio,
-  ParallaxQuote,
   Process,
   Contact,
   Footer,
@@ -30,7 +29,6 @@ function Home() {
         <About />
         <Services />
         <Portfolio />
-        <ParallaxQuote />
         <Process />
         <Contact onWhatsAppClick={openWhatsApp} />
       </main>

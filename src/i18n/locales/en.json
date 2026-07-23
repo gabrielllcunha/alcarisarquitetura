@@ -18,24 +18,20 @@
     "language": "Select language"
   },
   "hero": {
-    "eyebrow": "Architecture Studio",
-    "tagline": "Transforming visions into spaces that tell stories",
+    "eyebrow": "| global architecture studio |",
     "ctaPrimary": "Start a Project",
     "ctaSecondary": "View Portfolio",
     "scroll": "Scroll"
   },
   "about": {
     "label": "About us",
-    "title": "Architecture with purpose and history",
     "paragraphs": [
       "ALCARIS Arquitetura is a studio dedicated to creating commercial and residential projects that unite aesthetics, functionality, and identity.",
       "Led by Alan Carlos, an architect graduated from Universidade Paranaense, the firm carries the trajectory of a professional recognized for innovation since the beginning of his career. At 21, Alan won a public competition for the Entrance Portal project of the city of Toledo-PR and also became the face of advertising campaigns for the Architecture course, appearing on billboards and television commercials throughout Paraná.",
       "At 22, he already had projects in various regions of the state and, in 2024, at 23, became the youngest architect to be awarded by the Metropolitan Nucleus (Cascavel branch). Today, this experience translates into ALCARIS: a studio committed to transforming visions into spaces that tell stories."
     ],
     "highlights": {
-      "experience": "Years of experience",
-      "projects": "Projects delivered",
-      "dedication": "Client dedication"
+      "projects": "Projects delivered"
     },
     "showcase": {
       "next": "View next project"
@@ -46,20 +42,20 @@
     "title": "What we do",
     "intro": "Complete architecture and design solutions, from the first sketch to final delivery.",
     "items": {
-      "residential": {
-        "title": "Residential Architecture",
-        "description": "Homes that balance functionality, comfort, and a unique visual identity for every family."
-      },
-      "commercial": {
-        "title": "Commercial Architecture",
-        "description": "Corporate and commercial spaces designed to strengthen brand, flow, and user experience."
+      "architectural": {
+        "title": "Architectural Project",
+        "description": "Complete architectural design for residential and commercial spaces, from concept to technical detailing."
       },
       "interiors": {
         "title": "Interior Design",
         "description": "Complete environments with curated materials, furniture, and lighting in perfect harmony."
       },
+      "furniture": {
+        "title": "Furniture Design",
+        "description": "Custom furniture pieces designed to fit the space, function, and identity of each project."
+      },
       "consulting": {
-        "title": "Consulting & Supervision",
+        "title": "Consulting & Follow-up",
         "description": "Technical guidance and supervision at every stage, from concept to final delivery."
       }
     }
@@ -83,30 +79,33 @@
       "project6": "Carrari Ramos Advocacy"
     }
   },
-  "quote": {
-    "ariaLabel": "Quote",
-    "text": "Architecture is the balance between dream and reality, between form and function.",
-    "cite": "ALCARIS Arquitetura"
-  },
   "process": {
     "label": "Process",
     "title": "How we work",
     "steps": {
-      "briefing": {
-        "title": "Listening & Briefing",
-        "description": "We understand your needs, lifestyle, and vision to translate them into clear project guidelines."
+      "survey": {
+        "title": "Survey",
+        "description": "On-site measurement and analysis of the space, conditions, and technical constraints that guide the project."
       },
-      "concept": {
-        "title": "Concept & Study",
-        "description": "We develop creative proposals with floor plans, volumetry, and visual references for validation."
+      "briefing": {
+        "title": "Briefing",
+        "description": "We listen to your needs, lifestyle, and vision to define clear guidelines for the project."
+      },
+      "preliminary": {
+        "title": "Preliminary study",
+        "description": "First design explorations with layout options, volumetry, and visual direction for validation."
+      },
+      "schematic": {
+        "title": "Schematic design",
+        "description": "Refined proposal with defined spaces, materials, and solutions aligned to the approved concept."
       },
       "executive": {
-        "title": "Executive Project",
-        "description": "Complete technical detailing — structural, installations, finishes, and material specifications."
+        "title": "Executive project",
+        "description": "Complete technical detailing: installations, finishes, and material specifications for execution."
       },
-      "delivery": {
-        "title": "Construction & Delivery",
-        "description": "Rigorous supervision of execution through final delivery, ensuring fidelity to the project."
+      "advisory": {
+        "title": "Store advisory & follow-up",
+        "description": "Guidance and accompaniment in selecting finishes, furniture, and materials in stores."
       }
     }
   },
@@ -122,7 +121,6 @@
   "footer": {
     "founder": "by {{founder}}",
     "instagram": "Instagram",
-    "facebook": "Facebook",
     "copyright": "© {{year}} {{name}} {{suffix}}",
     "rights": "All rights reserved"
   },

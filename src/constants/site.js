@@ -8,7 +8,6 @@ export const SITE = {
   },
   social: {
     instagram: 'https://www.instagram.com/alcarisarquitetura/',
-    facebook: 'https://www.facebook.com/alan.gomes.94695',
   },
   email: 'ac.arquitetosassociados@gmail.com',
 };
@@ -23,26 +22,26 @@ export const BRAND = {
 };
 
 export const NAV_LINKS = [
-  { href: '#sobre', labelKey: 'nav.about' },
-  { href: '#servicos', labelKey: 'nav.services' },
+  { href: '#about', labelKey: 'nav.about' },
+  { href: '#services', labelKey: 'nav.services' },
   { href: '#portfolio', labelKey: 'nav.portfolio' },
-  { href: '#processo', labelKey: 'nav.process' },
-  { href: '#contato', labelKey: 'nav.contact' },
+  { href: '#process', labelKey: 'nav.process' },
+  { href: '#contact', labelKey: 'nav.contact' },
 ];
 
 export const ABOUT_HIGHLIGHTS = [
-  { value: '5+', labelKey: 'about.highlights.experience' },
-  { value: '90+', labelKey: 'about.highlights.projects' },
-  { value: '100%', labelKey: 'about.highlights.dedication' },
+  { value: '50+', labelKey: 'about.highlights.projects' },
 ];
 
-export const SERVICE_IDS = ['residential', 'commercial', 'interiors', 'consulting'];
+export const SERVICE_IDS = ['architectural', 'interiors', 'furniture', 'consulting'];
 
 export const PROCESS_STEPS = [
-  { step: '01', id: 'briefing' },
-  { step: '02', id: 'concept' },
-  { step: '03', id: 'executive' },
-  { step: '04', id: 'delivery' },
+  { step: '01', id: 'survey' },
+  { step: '02', id: 'briefing' },
+  { step: '03', id: 'preliminary' },
+  { step: '04', id: 'schematic' },
+  { step: '05', id: 'executive' },
+  { step: '06', id: 'advisory' },
 ];
 
 export const getWhatsAppUrl = (message) => {

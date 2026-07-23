@@ -5,7 +5,7 @@
   --color-tertiary: #7F4F24;
   --color-accent: #c4b896;
 
-  --font-display: 'EB Garamond', 'Georgia', serif;
+  --font-display: 'Syne', 'Helvetica Neue', sans-serif;
   --font-body: 'Jost', 'Helvetica Neue', sans-serif;
 
   --container-max: 1200px;
@@ -65,9 +65,9 @@ body {
 .section-title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.15;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.025em;
 }
 
 .section-title--light {
@@ -147,6 +147,8 @@ body {
 .scroll-reveal.reveal--delay-2 { transition-delay: 0.2s; }
 .scroll-reveal.reveal--delay-3 { transition-delay: 0.3s; }
 .scroll-reveal.reveal--delay-4 { transition-delay: 0.4s; }
+.scroll-reveal.reveal--delay-5 { transition-delay: 0.5s; }
+.scroll-reveal.reveal--delay-6 { transition-delay: 0.6s; }
 
 @media (prefers-reduced-motion: reduce) {
   html {

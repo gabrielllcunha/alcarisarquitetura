@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiLogoInstagram, BiLogoFacebook } from 'react-icons/bi';
+import { BiLogoInstagram } from 'react-icons/bi';
 import { SITE } from '../../../constants/site';
 import { useTranslation } from 'react-i18next';
 import Logo from '../../ui/Logo';
@@ -26,15 +26,7 @@ function Footer() {
             rel="noopener noreferrer"
             aria-label={t('footer.instagram')}
           >
-            <BiLogoInstagram size={22} />
-          </a>
-          <a
-            href={SITE.social.facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t('footer.facebook')}
-          >
-            <BiLogoFacebook size={22} />
+            <BiLogoInstagram size={26} />
           </a>
         </div>
 

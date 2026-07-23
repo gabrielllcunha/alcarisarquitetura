@@ -18,24 +18,20 @@
     "language": "Selecionar idioma"
   },
   "hero": {
-    "eyebrow": "Estúdio de Arquitetura",
-    "tagline": "Transformar visões em espaços que contam histórias",
+    "eyebrow": "| global architecture studio |",
     "ctaPrimary": "Iniciar um Projeto",
     "ctaSecondary": "Ver Portfólio",
     "scroll": "Scroll"
   },
   "about": {
     "label": "Sobre nós",
-    "title": "Arquitetura com propósito e história",
     "paragraphs": [
       "A ALCARIS Arquitetura é um escritório dedicado à criação de projetos comerciais e residenciais que unem estética, funcionalidade e identidade.",
       "Liderada por Alan Carlos, arquiteto formado pela Universidade Paranaense, a empresa carrega a trajetória de um profissional reconhecido pela inovação desde o início da carreira. Aos 21 anos, Alan venceu um concurso público para o projeto do Portal de Entrada da cidade de Toledo-PR e também foi o rosto de campanhas publicitárias do curso de Arquitetura, estampando outdoors e comerciais de televisão em todo o Paraná.",
       "Aos 22 anos, já possuía projetos em diversas regiões do estado e, em 2024, aos 23 anos, tornou-se o arquiteto mais jovem a ser premiado pelo Núcleo Metropolitano (filial Cascavel). Hoje, essa bagagem se traduz na ALCARIS: um escritório comprometido em transformar visões em espaços que contam histórias."
     ],
     "highlights": {
-      "experience": "Anos de experiência",
-      "projects": "Projetos entregues",
-      "dedication": "Dedicação ao cliente"
+      "projects": "Projetos entregues"
     },
     "showcase": {
       "next": "Ver próximo projeto"
@@ -46,17 +42,17 @@
     "title": "O que fazemos",
     "intro": "Soluções completas em arquitetura e design, do primeiro traço à entrega final da obra.",
     "items": {
-      "residential": {
-        "title": "Arquitetura Residencial",
-        "description": "Moradias que equilibram funcionalidade, conforto e uma identidade visual única para cada família."
-      },
-      "commercial": {
-        "title": "Arquitetura Comercial",
-        "description": "Espaços corporativos e comerciais projetados para reforçar marca, fluxo e experiência do usuário."
+      "architectural": {
+        "title": "Projeto Arquitetônico",
+        "description": "Projeto arquitetônico completo para espaços residenciais e comerciais, do conceito ao detalhamento técnico."
       },
       "interiors": {
-        "title": "Design de Interiores",
+        "title": "Projeto de Interiores",
         "description": "Ambientes completos com curadoria de materiais, mobiliário e iluminação em perfeita harmonia."
+      },
+      "furniture": {
+        "title": "Desenho de Mobiliário",
+        "description": "Peças de mobiliário sob medida, pensadas para o espaço, a função e a identidade de cada projeto."
       },
       "consulting": {
         "title": "Consultoria & Acompanhamento",
@@ -83,30 +79,33 @@
       "project6": "Carrari Ramos Advocacia"
     }
   },
-  "quote": {
-    "ariaLabel": "Citação",
-    "text": "A arquitetura é o equilíbrio entre o sonho e a realidade, entre a forma e a função.",
-    "cite": "ALCARIS Arquitetura"
-  },
   "process": {
     "label": "Processo",
     "title": "Como trabalhamos",
     "steps": {
-      "briefing": {
-        "title": "Escuta & Briefing",
-        "description": "Compreendemos suas necessidades, estilo de vida e visão para traduzir em diretrizes claras de projeto."
+      "survey": {
+        "title": "Levantamento",
+        "description": "Medição e análise do espaço, das condições do local e das restrições técnicas que orientam o projeto."
       },
-      "concept": {
-        "title": "Conceito & Estudo",
-        "description": "Desenvolvemos propostas criativas com plantas, volumetria e referências visuais para validação."
+      "briefing": {
+        "title": "Briefing",
+        "description": "Escutamos suas necessidades, estilo de vida e visão para definir diretrizes claras do projeto."
+      },
+      "preliminary": {
+        "title": "Estudo preliminar",
+        "description": "Primeiras explorações de projeto com opções de layout, volumetria e direção visual para validação."
+      },
+      "schematic": {
+        "title": "Anteprojeto",
+        "description": "Proposta refinada com ambientes definidos, materiais e soluções alinhadas ao conceito aprovado."
       },
       "executive": {
-        "title": "Projeto Executivo",
-        "description": "Detalhamento técnico completo — estrutural, instalações, acabamentos e especificações de materiais."
+        "title": "Projeto executivo",
+        "description": "Detalhamento técnico completo: instalações, acabamentos e especificações de materiais para execução."
       },
-      "delivery": {
-        "title": "Obra & Entrega",
-        "description": "Acompanhamento rigoroso da execução até a entrega final, garantindo fidelidade ao projeto."
+      "advisory": {
+        "title": "Assessoria e acompanhamento em lojas",
+        "description": "Orientação e acompanhamento na escolha de acabamentos, mobiliário e materiais em lojas."
       }
     }
   },
@@ -122,7 +121,6 @@
   "footer": {
     "founder": "por {{founder}}",
     "instagram": "Instagram",
-    "facebook": "Facebook",
     "copyright": "© {{year}} {{name}} {{suffix}}",
     "rights": "Todos os direitos reservados"
   },
