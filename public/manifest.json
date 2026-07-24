@@ -1,6 +1,7 @@
 {
   "short_name": "ALCARIS",
   "name": "ALCARIS Arquitetura",
+  "description": "Escritório dedicado a projetos comerciais e residenciais que unem estética, funcionalidade e identidade. Liderado por Alan Carlos em Toledo, Paraná.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#3B401F",
-  "background_color": "#F2E9D0"
+  "background_color": "#F2E9D0",
+  "lang": "pt-BR"
 }

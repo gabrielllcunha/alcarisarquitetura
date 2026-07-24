@@ -18,7 +18,7 @@ function About() {
         </ScrollReveal>
 
         <ScrollReveal className="about__content reveal--delay-2">
-          <span className="section-label">{t('about.label')}</span>
+          <h2 className="section-label">{t('about.label')}</h2>
 
           {Array.isArray(paragraphs) &&
             paragraphs.map((paragraph, index) => (

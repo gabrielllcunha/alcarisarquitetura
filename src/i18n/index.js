@@ -46,10 +46,32 @@ i18n.on('initialized', () => {
   }
 });
 
+const upsertMetaTag = (attribute, key, content) => {
+  if (!content) return;
+
+  let element = document.head.querySelector(`meta[${attribute}="${key}"]`);
+  if (!element) {
+    element = document.createElement('meta');
+    element.setAttribute(attribute, key);
+    document.head.appendChild(element);
+  }
+  element.setAttribute('content', content);
+};
+
 const syncDocumentLanguage = (language) => {
   const normalizedLanguage = normalizeLanguage(language);
+  const title = i18n.t('meta.title');
+  const description = i18n.t('meta.description');
+
   document.documentElement.lang = normalizedLanguage === 'en' ? 'en' : 'pt-BR';
-  document.title = i18n.t('meta.title');
+  document.title = title;
+
+  upsertMetaTag('name', 'description', description);
+  upsertMetaTag('property', 'og:title', title);
+  upsertMetaTag('property', 'og:description', description);
+  upsertMetaTag('property', 'og:locale', normalizedLanguage === 'en' ? 'en_US' : 'pt_BR');
+  upsertMetaTag('name', 'twitter:title', title);
+  upsertMetaTag('name', 'twitter:description', description);
 };
 
 i18n.on('languageChanged', syncDocumentLanguage);

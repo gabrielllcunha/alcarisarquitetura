@@ -1,6 +1,8 @@
 export const SITE = {
   name: 'ALCARIS',
   suffix: 'Arquitetura',
+  fullName: 'ALCARIS Arquitetura',
+  url: 'https://alcarisarquitetura.vercel.app',
   founder: 'Alan Carlos',
   whatsapp: {
     number: '5545998022377',
@@ -10,6 +12,13 @@ export const SITE = {
     instagram: 'https://www.instagram.com/alcarisarquitetura/',
   },
   email: 'ac.arquitetosassociados@gmail.com',
+  location: {
+    city: 'Toledo',
+    region: 'PR',
+    regionName: 'Paraná',
+    country: 'BR',
+    countryName: 'Brasil',
+  },
 };
 
 export const BRAND = {
